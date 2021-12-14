@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de eventos</title>
+        <link rel="stylesheet" href="CSS.css">
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5aa74222bd1bfb04"></script>
+        <link rel="manifest" href="manifest.json">
+	
+    </head>
+    <body>
+        <div class="fro">
+            <br>
+        <center><a href="mostrar.php">Mostrar Eventos</a>
+        <a href="index.html">Regresar Al menu principal</a>
+        </div>
+        <form action="guardar.php" method="post">
+            <p>Nombre del evento</p>
+            <label for="nombre"></label>
+            <br>
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <p>El lugar del evento</p>
+            <label for="lugar"></label>
+            <br>
+            <input type="text" name="lugar" placeholder="Lugar" required>
+            <p>Fecha del evento</p>
+            <label for="nombre"></label>
+            <br>
+            <input type="text" name="fecha" placeholder="Fecha" required>
+            <p>Descripcion del evento</p>
+            <label for="nombre"></label>
+            <br>
+            <textarea name="descrip" placeholder="Descrip" required></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+        
+    </body>
+
+</html>

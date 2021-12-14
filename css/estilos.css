@@ -1,0 +1,103 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: #000000;
+  color: WHITE;
+  font-family: "Helvetica, Arial, Sans-serif";
+  background-image:url("../IMG/fondoGconLOGO.png");
+  background-attachment: fixed;
+  background-size:100vw 100vh; }
+
+a {
+  color: white;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+.wrap {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto; }
+
+.main {
+  width: 100%;
+  min-height: 1500px; }
+
+.presentamos {
+  height: calc(100vh - 50px);
+  background: #FFFFFF;
+  color: #001F3F;
+  overflow: hidden;
+  padding: 50px 0;
+  display: none;
+  text-align: center; }
+  .presentamos h2 {
+    font-size: 60px;
+    margin-top: 50px; }
+  .presentamos p {
+    font-size: 20px;
+    margin-bottom: 50px; }
+  .presentamos button {
+    background: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 40px;
+    display: inline-block;
+    border: 5px solid #001F3F;
+    transition: 0.3s all ease; }
+    .presentamos button:hover {
+      border: 5px solid #0074D9;
+      color: #0074D9; }
+
+.btn-toggle {
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  display: block;
+  text-align: center;
+  background: #FFDC00; }
+  .btn-toggle:hover {
+    text-decoration: none; }
+
+@media screen and (max-width: 500px) {
+  .presentamos h2 {
+    margin-top: 0; } }
+@media screen and (max-height: 550px) {
+  .presentamos h2 {
+    font-size: 40px;
+    margin-top: 0; } }
+
+/* circulo del css de la parte de inicio */
+#transicion{
+  margin:30px auto;
+    width:200px;
+    height:200px;
+    background-color:#0D2FD8;
+    color:#0D2FD8;
+    line-height:300px;
+    font-size:25px;
+    text-align:center;
+}
+
+#transicion:hover{
+    width:400px;
+    height:400px;
+    border-radius:60%;
+    background-color:#2c3e50;
+    cursor:pointer;
+    padding:30px;
+    box-shadow:0px 2px 20px #000;
+    color:#fff;
+    
+    -webkit-transition: width 1s ease,height 1s ease,background-color 2s ease-out, border-radius 2s ease-in-out, padding 1s ease 2s, box-shadow 1s ease 2s, color 3s linear;
+    -moz-transition: width 1s ease,height 1s ease,background-color 2s ease-out, border-radius 2s ease-in-out, padding 1s ease 2s, box-shadow 1s ease 2s, color 3s linear;
+    -o-transition: width 1s ease,height 1s ease,background-color 2s ease-out, border-radius 2s ease-in-out, padding 1s ease 2s, box-shadow 1s ease 2s, color 3s linear;
+    -ms-transition: width 1s ease,height 1s ease,background-color 2s ease-out, border-radius 2s ease-in-out, padding 1s ease 2s, box-shadow 1s ease 2s, color 3s linear;    
+    transition: width 1s ease,height 1s ease,background-color 2s ease-out, border-radius 2s ease-in-out, padding 1s ease 2s, box-shadow 1s ease 2s, color 3s linear;
+
+}

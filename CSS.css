@@ -1,0 +1,57 @@
+body{
+    background-image: url(css/morelip1.jpg)
+}
+div .titulo{
+    background-image: url(css/morelip1.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    
+}
+form{
+    width: 500px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+p{
+    color: #ffff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input,textarea{
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+.fro{
+    width: 510px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+a{
+    width: 50%;
+    background: rgba(0,0,0,0.8);
+    color:#fff;
+    text-decoration:none;
+				padding:10px 12px;
+				
+    color: #ffff;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+ h1{
+     color: #ffff;
+}
